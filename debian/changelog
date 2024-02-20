@@ -1,0 +1,127 @@
+ros-rolling-ntrip-client-node (0.5.2-2noble) noble; urgency=high
+
+
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Sun, 05 Nov 2023 00:00:00 -0000
+
+ros-rolling-ntrip-client-node (0.5.1-2noble) noble; urgency=high
+
+  * Merge branch 'aussierobots:main' into main
+  * Contributors: Geoff Sokoll
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Fri, 13 Oct 2023 00:00:00 -0000
+
+ros-rolling-ntrip-client-node (0.5.0-2noble) noble; urgency=high
+
+
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Fri, 13 Oct 2023 00:00:00 -0000
+
+ros-rolling-ntrip-client-node (0.4.4-2noble) noble; urgency=high
+
+  * cmake uncrustify changes
+  * Contributors: Nick Hortovanyi
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Wed, 24 May 2023 00:00:00 -0000
+
+ros-rolling-ntrip-client-node (0.4.3-2noble) noble; urgency=high
+
+  * added ament_cmake_uncrustify
+  * Contributors: Nick Hortovanyi
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Wed, 24 May 2023 00:00:00 -0000
+
+ros-rolling-ntrip-client-node (0.4.2-2noble) noble; urgency=high
+
+
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Wed, 24 May 2023 00:00:00 -0000
+
+ros-rolling-ntrip-client-node (0.4.1-2noble) noble; urgency=high
+
+  * updates for release
+  * reverted code for Humble logging
+  * Merge pull request #10 <https://github.com/aussierobots/ublox_dgnss/issues/10> from aussierobots/F9R-and-RTCM
+    F9 r and rtcm
+  * added a new ntrip_client node to pub rtcm msgs
+  * Contributors: Nick Hortovanyi
+  * reverted code for Humble logging
+  * Merge pull request #10 <https://github.com/aussierobots/ublox_dgnss/issues/10> from aussierobots/F9R-and-RTCM
+    F9 r and rtcm
+  * added a new ntrip_client node to pub rtcm msgs
+  * Contributors: Nick Hortovanyi
+  * reverted code for Humble logging
+  * Merge pull request #10 <https://github.com/aussierobots/ublox_dgnss/issues/10> from aussierobots/F9R-and-RTCM
+    F9 r and rtcm
+  * added a new ntrip_client node to pub rtcm msgs
+  * Contributors: Nick Hortovanyi
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Wed, 24 May 2023 00:00:00 -0000
+
+ros-rolling-ntrip-client-node (0.3.5-2noble) noble; urgency=high
+
+
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Tue, 24 May 2022 17:44:00 -0000
+
+ros-rolling-ntrip-client-node (0.3.4-2noble) noble; urgency=high
+
+
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Tue, 24 May 2022 07:12:00 -0000
+
+ros-rolling-ntrip-client-node (0.3.3-2noble) noble; urgency=high
+
+
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Tue, 24 May 2022 06:14:00 -0000
+
+ros-rolling-ntrip-client-node (0.3.2-2noble) noble; urgency=high
+
+
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Fri, 13 May 2022 14:11:00 -0000
+
+ros-rolling-ntrip-client-node (0.3.1-2noble) noble; urgency=high
+
+
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Fri, 13 May 2022 12:43:00 -0000
+
+ros-rolling-ntrip-client-node (0.3.0-2noble) noble; urgency=high
+
+
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Fri, 13 May 2022 10:26:00 -0000
+
+ros-rolling-ntrip-client-node (0.2.3-2noble) noble; urgency=high
+
+
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Sun, 25 Jul 2021 00:00:00 -0000
+
+ros-rolling-ntrip-client-node (0.2.2-2noble) noble; urgency=high
+
+
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Thu, 22 Jul 2021 07:14:00 -0000
+
+ros-rolling-ntrip-client-node (0.2.1-2noble) noble; urgency=high
+
+
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Thu, 22 Jul 2021 05:24:00 -0000
+
+ros-rolling-ntrip-client-node (0.2.0-2noble) noble; urgency=high
+
+
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Tue, 20 Jul 2021 00:00:00 -0000
+
+ros-rolling-ntrip-client-node (0.1.0-2noble) noble; urgency=high
+
+
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Sun, 11 Jul 2021 00:00:00 -0000
+
+
