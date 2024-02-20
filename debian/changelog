@@ -1,0 +1,252 @@
+ros-rolling-ublox-dgnss-node (0.5.2-2noble) noble; urgency=high
+
+  * removed saving of read serial str in connection
+  * uncrustify format issue
+  * fixed error messages
+  * added rc logic and throws
+  * Contributors: Nick Hortovanyi
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Sun, 05 Nov 2023 00:00:00 -0000
+
+ros-rolling-ublox-dgnss-node (0.5.1-2noble) noble; urgency=high
+
+  * Merge branch 'aussierobots:main' into main
+  * Contributors: Geoff Sokoll
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Fri, 13 Oct 2023 00:00:00 -0000
+
+ros-rolling-ublox-dgnss-node (0.5.0-2noble) noble; urgency=high
+
+  * code formatting issues
+  * fixed line length
+  * Merge branch 'main' of github.com:aussierobots/ublox_dgnss
+  * Merge pull request #12 <https://github.com/aussierobots/ublox_dgnss/issues/12> from gsokoll/main
+    Add multiple device support, and moving base+rover example
+  * Added new messages for satellite data & security
+  * increase buffer size
+  * Add multiple device support, and moving base+rover example
+  * Contributors: Geoff Sokoll, Nick Hortovanyi
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Fri, 13 Oct 2023 00:00:00 -0000
+
+ros-rolling-ublox-dgnss-node (0.4.4-2noble) noble; urgency=high
+
+  * cmake uncrustify changes
+  * Contributors: Nick Hortovanyi
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Wed, 24 May 2023 00:00:00 -0000
+
+ros-rolling-ublox-dgnss-node (0.4.3-2noble) noble; urgency=high
+
+  * added ament_cmake_uncrustify
+  * Contributors: Nick Hortovanyi
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Wed, 24 May 2023 00:00:00 -0000
+
+ros-rolling-ublox-dgnss-node (0.4.2-2noble) noble; urgency=high
+
+
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Wed, 24 May 2023 00:00:00 -0000
+
+ros-rolling-ublox-dgnss-node (0.4.1-2noble) noble; urgency=high
+
+  * updates for release
+  * Merge pull request #10 <https://github.com/aussierobots/ublox_dgnss/issues/10> from aussierobots/F9R-and-RTCM
+    F9 r and rtcm
+  * changed verbosity of logging
+  * Merge pull request #9 <https://github.com/aussierobots/ublox_dgnss/issues/9> from gsokoll/F9R-and-RTCM
+    Composable node version of navsatfix
+  * Composable node version of navsatfix.  Added example launch file.
+  * Merge pull request #8 <https://github.com/aussierobots/ublox_dgnss/issues/8> from gsokoll/F9R-and-RTCM
+    Change to rtcm_msgs instead of mavros_msgs.
+  * Change to rtcm_msgs instead of mavros_msgs.
+    This is in keeping with a similar PR for the LORD MicrosStrain NTRIP client.
+    https://github.com/LORD-MicroStrain/ntrip_client/pull/34
+    where it is commented that
+    "rtcm_msgs is a smaller dependency with support for both ROS and ROS 2
+    now, and preferred by some downstream dependencies like ublox."
+    Format of the messages are strcturally identical, with the only difference
+    being the name of the payload ("data" in mavros vs "message" in rtcm_msgs)
+  * Merge pull request #6 <https://github.com/aussierobots/ublox_dgnss/issues/6> from gsokoll/gsokoll-patch-1
+    Add CFG_SFIMU_AUTO_MNTALG_ENA
+  * if usb detached warn not sending to device
+  * added guards not send to device if usb devh null
+  * usb connection changes
+  * added return for esf_meas warnings to not send
+  * added guards and warnings for ubx_esf_meas inbound
+  * Add CFG_SFIMU_AUTO_MNTALG_ENA
+  * fix to pub full ubx_esf_meas
+  * changed some msgs from INFO to DEBUG
+  * renamed ubx_esf_meas_sub topic
+  * changed calibTtag from an array to single value
+  * uncrustify changes
+  * uncrustify format changes
+  * fixed wrong esf msg
+  * added rtcm msg processing
+  * added ubx_esf_meas full poll payload to device
+  * added ubx_esf_meas output publishing
+  * fixed spelling mistake
+  * notation and spelling fixes
+  * added initial ubx esf status code
+  * renamed F9P usb variable to F9
+  * fixed CFG_SFDO_LATENCY naming
+  * Added CFG_MSGOUT_UBX_ESF* items
+  * Added CFG_SFODO_* items
+  * added new DYN_MODEL SFIMU_IMU_MNTALG_* cfg items
+  * changed USb and UBX event times from 10ns to 10ms
+  * Merge pull request #4 <https://github.com/aussierobots/ublox_dgnss/issues/4> from gsokoll/patch-1
+    Add UBX_ESF message class and id's
+  * Add UBX_ESF message class and id's
+  * added ubx_rxm_out_frame for poll frame out
+  * fixed version output
+  * added ubx-rxm-rtcm publishing
+  * Contributors: Geoff Sokoll, Nick Hortovanyi
+  * Merge pull request #10 <https://github.com/aussierobots/ublox_dgnss/issues/10> from aussierobots/F9R-and-RTCM
+    F9 r and rtcm
+  * changed verbosity of logging
+  * Merge pull request #9 <https://github.com/aussierobots/ublox_dgnss/issues/9> from gsokoll/F9R-and-RTCM
+    Composable node version of navsatfix
+  * Composable node version of navsatfix.  Added example launch file.
+  * Merge pull request #8 <https://github.com/aussierobots/ublox_dgnss/issues/8> from gsokoll/F9R-and-RTCM
+    Change to rtcm_msgs instead of mavros_msgs.
+  * Change to rtcm_msgs instead of mavros_msgs.
+    This is in keeping with a similar PR for the LORD MicrosStrain NTRIP client.
+    https://github.com/LORD-MicroStrain/ntrip_client/pull/34
+    where it is commented that
+    "rtcm_msgs is a smaller dependency with support for both ROS and ROS 2
+    now, and preferred by some downstream dependencies like ublox."
+    Format of the messages are strcturally identical, with the only difference
+    being the name of the payload ("data" in mavros vs "message" in rtcm_msgs)
+  * Merge pull request #6 <https://github.com/aussierobots/ublox_dgnss/issues/6> from gsokoll/gsokoll-patch-1
+    Add CFG_SFIMU_AUTO_MNTALG_ENA
+  * if usb detached warn not sending to device
+  * added guards not send to device if usb devh null
+  * usb connection changes
+  * added return for esf_meas warnings to not send
+  * added guards and warnings for ubx_esf_meas inbound
+  * Add CFG_SFIMU_AUTO_MNTALG_ENA
+  * fix to pub full ubx_esf_meas
+  * changed some msgs from INFO to DEBUG
+  * renamed ubx_esf_meas_sub topic
+  * changed calibTtag from an array to single value
+  * uncrustify changes
+  * uncrustify format changes
+  * fixed wrong esf msg
+  * added rtcm msg processing
+  * added ubx_esf_meas full poll payload to device
+  * added ubx_esf_meas output publishing
+  * fixed spelling mistake
+  * notation and spelling fixes
+  * added initial ubx esf status code
+  * renamed F9P usb variable to F9
+  * fixed CFG_SFDO_LATENCY naming
+  * Added CFG_MSGOUT_UBX_ESF* items
+  * Added CFG_SFODO_* items
+  * added new DYN_MODEL SFIMU_IMU_MNTALG_* cfg items
+  * changed USb and UBX event times from 10ns to 10ms
+  * Merge pull request #4 <https://github.com/aussierobots/ublox_dgnss/issues/4> from gsokoll/patch-1
+    Add UBX_ESF message class and id's
+  * Add UBX_ESF message class and id's
+  * added ubx_rxm_out_frame for poll frame out
+  * fixed version output
+  * added ubx-rxm-rtcm publishing
+  * Contributors: Geoff Sokoll, Nick Hortovanyi
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Wed, 24 May 2023 00:00:00 -0000
+
+ros-rolling-ublox-dgnss-node (0.3.5-2noble) noble; urgency=high
+
+  * uncrustify changes
+  * reverted uncrustify to ros ament default
+  * fixed title underline
+  * Contributors: Nick Hortovanyi
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Tue, 24 May 2022 00:00:00 -0000
+
+ros-rolling-ublox-dgnss-node (0.3.4-2noble) noble; urgency=high
+
+  * uncrustify
+  * Contributors: Nick Hortovanyi
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Tue, 24 May 2022 00:00:00 -0000
+
+ros-rolling-ublox-dgnss-node (0.3.3-2noble) noble; urgency=high
+
+  * added <build_depend>pkg-configi</build_depend>
+  * Contributors: Nick Hortovanyi
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Tue, 24 May 2022 00:00:00 -0000
+
+ros-rolling-ublox-dgnss-node (0.3.2-2noble) noble; urgency=high
+
+  * updated CMAKE_CXX_STANDARD 17
+  * Contributors: Nick Hortovanyi
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Fri, 13 May 2022 00:00:00 -0000
+
+ros-rolling-ublox-dgnss-node (0.3.1-2noble) noble; urgency=high
+
+  * uncrustify format changes
+  * Contributors: Nick Hortovanyi
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Fri, 13 May 2022 12:43:00 -0000
+
+ros-rolling-ublox-dgnss-node (0.3.0-2noble) noble; urgency=high
+
+  * changes for humble
+  * uncrustify
+  * uncrustify
+  * removed author element
+  * altered transfer_queue erase algo
+  * removed whitespace
+  * build test changes
+  * added ubx_nav_resetodo poll
+  * updated define statements
+  * Contributors: Nick Hortovanyi
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Fri, 13 May 2022 10:26:00 -0000
+
+ros-rolling-ublox-dgnss-node (0.2.3-2noble) noble; urgency=high
+
+  * changed build dependencies
+  * Contributors: Nick Hortovanyi
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Sun, 25 Jul 2021 00:00:00 -0000
+
+ros-rolling-ublox-dgnss-node (0.2.2-2noble) noble; urgency=high
+
+  * 0.2.2 build farm dependency changes
+  * removed unused find_packages
+  * removed unused messages
+  * Contributors: Nick Hortovanyi
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Thu, 22 Jul 2021 07:14:00 -0000
+
+ros-rolling-ublox-dgnss-node (0.2.1-2noble) noble; urgency=high
+
+  * updated version 0.2.1
+  * added check for libusb
+  * updated dependencies
+  * Contributors: Nick Hortovanyi
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Thu, 22 Jul 2021 05:24:00 -0000
+
+ros-rolling-ublox-dgnss-node (0.2.0-2noble) noble; urgency=high
+
+  * added ubx_nav_cov message
+  * updated version number and email
+  * Fixed license to Apache License, Version 2.0
+  * Contributors: Nick Hortovanyi
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Tue, 20 Jul 2021 00:00:00 -0000
+
+ros-rolling-ublox-dgnss-node (0.1.0-2noble) noble; urgency=high
+
+  * removed install for launch dir
+  * Initial release
+  * Contributors: Nick Hortovanyi
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Sun, 11 Jul 2021 00:00:00 -0000
+
+
