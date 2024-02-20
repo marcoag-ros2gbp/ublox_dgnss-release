@@ -1,0 +1,149 @@
+ros-rolling-ublox-ubx-msgs (0.5.2-2noble) noble; urgency=high
+
+
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Sun, 05 Nov 2023 00:00:00 -0000
+
+ros-rolling-ublox-ubx-msgs (0.5.1-2noble) noble; urgency=high
+
+  * Merge branch 'aussierobots:main' into main
+  * Contributors: Geoff Sokoll
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Fri, 13 Oct 2023 00:00:00 -0000
+
+ros-rolling-ublox-ubx-msgs (0.5.0-2noble) noble; urgency=high
+
+  * Added new messages for satellite data & security
+  * Contributors: Nick Hortovanyi
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Fri, 13 Oct 2023 00:00:00 -0000
+
+ros-rolling-ublox-ubx-msgs (0.4.4-2noble) noble; urgency=high
+
+
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Wed, 24 May 2023 00:00:00 -0000
+
+ros-rolling-ublox-ubx-msgs (0.4.3-2noble) noble; urgency=high
+
+
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Wed, 24 May 2023 00:00:00 -0000
+
+ros-rolling-ublox-ubx-msgs (0.4.2-2noble) noble; urgency=high
+
+
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Wed, 24 May 2023 00:00:00 -0000
+
+ros-rolling-ublox-ubx-msgs (0.4.1-2noble) noble; urgency=high
+
+  * updates for release
+  * Merge pull request #10 <https://github.com/aussierobots/ublox_dgnss/issues/10> from aussierobots/F9R-and-RTCM
+    F9 r and rtcm
+  * changed calibTtag from an array to single value
+  * fixed spelling mistake
+  * notation and spelling fixes
+  * added initial ubx esf status code
+  * Added status constants
+  * Added status and fusion constants
+  * added ubx-rxm-rtcm publishing
+  * New UBX RXM RTCM message
+  * New UBX ESF Status message
+  * New UBX ESF Meas message
+  * Contributors: Nick Hortovanyi
+  * Merge pull request #10 <https://github.com/aussierobots/ublox_dgnss/issues/10> from aussierobots/F9R-and-RTCM
+    F9 r and rtcm
+  * changed calibTtag from an array to single value
+  * fixed spelling mistake
+  * notation and spelling fixes
+  * added initial ubx esf status code
+  * Added status constants
+  * Added status and fusion constants
+  * added ubx-rxm-rtcm publishing
+  * New UBX RXM RTCM message
+  * New UBX ESF Status message
+  * New UBX ESF Meas message
+  * Contributors: Nick Hortovanyi
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Wed, 24 May 2023 00:00:00 -0000
+
+ros-rolling-ublox-ubx-msgs (0.3.5-2noble) noble; urgency=high
+
+  * fixed title underline
+  * Contributors: Nick Hortovanyi
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Tue, 24 May 2022 00:00:00 -0000
+
+ros-rolling-ublox-ubx-msgs (0.3.4-2noble) noble; urgency=high
+
+
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Tue, 24 May 2022 00:00:00 -0000
+
+ros-rolling-ublox-ubx-msgs (0.3.3-2noble) noble; urgency=high
+
+
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Tue, 24 May 2022 00:00:00 -0000
+
+ros-rolling-ublox-ubx-msgs (0.3.2-2noble) noble; urgency=high
+
+  * updated CMAKE_CXX_STANDARD 17
+  * Contributors: Nick Hortovanyi
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Fri, 13 May 2022 00:00:00 -0000
+
+ros-rolling-ublox-ubx-msgs (0.3.1-2noble) noble; urgency=high
+
+
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Fri, 13 May 2022 12:43:00 -0000
+
+ros-rolling-ublox-ubx-msgs (0.3.0-2noble) noble; urgency=high
+
+  * changes for humble
+  * removed author element
+  * Contributors: Nick Hortovanyi
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Fri, 13 May 2022 10:26:00 -0000
+
+ros-rolling-ublox-ubx-msgs (0.2.3-2noble) noble; urgency=high
+
+  * changed build dependencies
+  * Contributors: Nick Hortovanyi
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Sun, 25 Jul 2021 00:00:00 -0000
+
+ros-rolling-ublox-ubx-msgs (0.2.2-2noble) noble; urgency=high
+
+  * 0.2.2 build farm dependency changes
+  * Contributors: Nick Hortovanyi
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Thu, 22 Jul 2021 07:14:00 -0000
+
+ros-rolling-ublox-ubx-msgs (0.2.1-2noble) noble; urgency=high
+
+  * updated version 0.2.1
+  * Contributors: Nick Hortovanyi
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Thu, 22 Jul 2021 05:24:00 -0000
+
+ros-rolling-ublox-ubx-msgs (0.2.0-2noble) noble; urgency=high
+
+  * added ubx_nav_cov message
+  * updated version number and email
+  * Fixed license to Apache License, Version 2.0
+  * Contributors: Nick Hortovanyi
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Tue, 20 Jul 2021 00:00:00 -0000
+
+ros-rolling-ublox-ubx-msgs (0.1.0-2noble) noble; urgency=high
+
+  * updated package version
+  * Initial release
+  * Contributors: Nick Hortovanyi
+
+ -- Nick Hortovanyi <nick@aussierobots.com.au>  Sun, 11 Jul 2021 00:00:00 -0000
+
+
